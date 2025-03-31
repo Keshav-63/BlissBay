@@ -18,7 +18,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://bliss-bayvercel.vercel.app",
   })
 );
 app.use(express.json());
